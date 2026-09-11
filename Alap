@@ -1,0 +1,164 @@
+# „Biztonságos család az interneten” – Projektcsomag és Útmutató
+
+---
+
+## 1. RÉSZ: A WEBOLDAL TELJES SZÖVEGES TARTALMA
+
+*(Ezt a szöveget közvetlenül felhasználhatod a HTML oldalaidon szekciónként vagy külön aloldalakkal.)*
+
+---
+
+### 1.1. Kezdőlap (`index.html`)
+
+**Főcím:** Biztonságos Család az Interneten  
+**Alcím:** Digitális tudatosság, adatvédelem és kiberbiztonság a mindennapokban
+
+#### Projektünk célja
+Napjainkban az internet életünk szerves részévé vált. Iskolai feladatok, munka, vásárlás, szórakozás és kapcsolattartás mind az online térben zajlik. Célunk, hogy egy fiktív család példáján keresztül bemutassuk a leggyakoribb online veszélyeket, és gyakorlati, könnyen alkalmazható megoldásokat adjunk minden korosztály számára.
+
+#### Alapértékeink a digitális térben:
+- **Felelősség:** Átgondoljuk a tetteinket és az online lábnyomunkat, mielőtt közzétennénk bármit.
+- **Bizalom és Őszinteség:** Ha baj történik online, merjünk segítséget kérni a családon belül, elhallgatás nélkül.
+- **Mások adatainak tisztelete:** Nem osztunk meg képeket, információkat másokról az engedélyük nélkül.
+- **Önfegyelem:** Tudatosan korlátozzuk a képernyőidőt és ellenállunk az online csábításoknak.
+- **Segítségnyújtás:** Segítjük a fiatalabbakat és a szépkorúakat a digitális eszközök biztonságos használatában.
+
+---
+
+### 1.2. Fiktív családunk bemutatása (Kiberbiztonsági Audit Alapja)
+
+#### 1. Családtag: Kovács Lili (12 éves)
+- **Használt eszköz:** Okostelefon, tablet.
+- **Online tevékenység:** TikTok, Instagram, online közösségi játékok (Roblox).
+- **Biztonsági probléma:** Túl sok személyes adatot és képet oszt meg nyilvánosan (iskola neve, lakhely, napi rutin).
+- **Kockázati szint:** Magas (Cyberbullying, zaklatás, adatvisszaélés veszélye).
+
+#### 2. Családtag: Kovács István (17 éves)
+- **Használt eszköz:** Gamer PC, okostelefon.
+- **Online tevékenység:** Online videójátékok, Discord, fájlletöltés, közösségi média.
+- **Biztonsági probléma:** Illegális játékmódosításokat (crack-eket, csalásokat) tölt le ismeretlen forrásból, a vírusirtót kikapcsolja.
+- **Kockázati szint:** Magas (Trójai vírusok, zsarolóvírusok, fiókeltérítés).
+
+#### 3. Családtag: Kovács Péter (42 éves, Apa)
+- **Használt eszköz:** Munkahelyi és privát laptop, okostelefon.
+- **Online tevékenység:** Webáruházak, internetbank, e-mailezés, otthoni munkavégzés.
+- **Biztonsági probléma:** Ugyanazt az egyszerű jelszót használja az összes privát és munkahelyi regisztrációjánál, a kétlépcsős azonosítás nincs bekapcsolva.
+- **Kockázati szint:** Kritikus (Adatszivárgás esetén az összes fiókja láncreakció-szerűen kompromittálódhat).
+
+#### 4. Családtag: Kovács Gizella (68 éves, Nagymama)
+- **Használt eszköz:** Tablet, okostévé.
+- **Online tevékenység:** Hírolvasás, Facebook, e-mailezés a családdal.
+- **Biztonsági probléma:** Nem ismeri fel az adathalász e-maileket és a megtévesztő nyereményjáték-hirdetéseket.
+- **Kockázati szint:** Magas (Pénzügyi veszteség, személyes adatok ellopása).
+
+---
+
+### 1.3. Biztonságos jelszavak (`jelszavak.html`)
+
+**Főcím:** Jelszóvédelem és Azonosítás  
+**Esettanulmány:** Péter (Apa) esete a gyenge és újrahasznált jelszavakkal.
+
+#### A veszély elemzése:
+Ha egyetlen weboldal adatbázisát kiszivárogtatják a hackerek, az ott használt e-mail-jelszó párossal elérik a felhasználó banki, e-mail és munkahelyi fiókjait is (*Credential Stuffing* támadás).
+
+#### Felismerés:
+- Értesítést kapsz ismeretlen helyről történő bejelentkezési kísérletről.
+- Nem tudsz belépni a saját fiókodba.
+- Az e-mail címed szerepel a [haveibeenpwned.com](https://haveibeenpwned.com) adatbázisában.
+
+#### Megoldási útmutató & Megelőzés:
+1. **Jelszó-frázisok használata:** Szavak véletlenszerű kombinációja speciális karakterekkel (pl. `KekKave!2026#Sutike`).
+2. **Egyedi jelszavak:** Minden szolgáltatáshoz külön jelszó szükséges!
+3. **Jelszókezelők használata:** Használjunk Bitwarden-t vagy 1Password-öt a jelszavak biztonságos generálására és tárolására.
+4. **Kétlépcsős Azonosítás (2FA):** Kapcsoljuk be a Google Authenticator vagy Authy alkalmazást minden fontos fiókon!
+
+---
+
+### 1.4. Adatvédelem és Digitális Lábnyom (`adatvedelem.html`)
+
+**Főcím:** Személyes adataid védelme az online térben  
+**Esettanulmány:** Lili (12 éves) túlmegosztási szokásai.
+
+#### A veszély elemzése:
+A közösségi médiára feltöltött fotók, helymegjelölések és személyes adatok alapján illetéktelenek beazonosíthatják a gyermek tartózkodási helyét, napirendj指出át, sőt, akár lakásbetöréshez vagy online zaklatáshoz is vezethet.
+
+#### A Digitális Lábnyom típusai:
+- **Aktív lábnyom:** Amit szándékosan posztolsz (fotók, kommentek, megosztások).
+- **Passzív lábnyom:** Amit a böngészés során hagysz magad után (IP-cím, böngészési előzmények, cookie-k).
+
+#### Megelőzési és Védelmi szabályok:
+- **Profilok privátra állítása:** Csak az ismerősök láthassák a tartalomjegyzéket.
+- **Metadata törlése:** A képek készítési helyének (GPS koordináták) kikapcsolása a telefon beállításaiban.
+- **A "Nagymama-teszt":** Mielőtt kiraksz egy képet, tedd fel a kérdést: *A nagymamám, a tanárom vagy egy jövőbeli munkáltatóm előtt is vállalnám ezt a képet?*
+
+---
+
+### 1.5. Online Csalások és Adathalászat (`csalasok.html`)
+
+**Főcím:** Adathalászat (Phishing) és gyanús letöltések  
+**Esettanulmány:** Gizella nagymama e-mailjei és István illegális letöltései.
+
+#### 1. Típus: Adathalászat (Phishing)
+Csaló e-mailek és SMS-ek, amelyek bankok, csomagküldők (Magyar Posta, DHL) vagy szolgáltatók nevében sürgető üzenettel kérik a kártya- vagy belépési adatokat.
+- **Felismerési jelek:** Helyesírási hibák, idegen feladó (`support@bank-security-update123.com`), sürgető hangnem, ismeretlen linkek.
+- **Mit tegyünk?** Soha ne kattintsunk a linkre! Ellenőrizzük a hivatalos oldalt közvetlen gépeléssel.
+
+#### 2. Típus: Malicious Downloads (Kártékony Letöltések)
+A játékokhoz letöltött törések (crack-ek) gyakran tartalmaznak háttérben futó adatlopókat (*Stealer/Keylogger*) vagy zsarolóvírusokat (*Ransomware*).
+- **Megelőzés:** Csak hivatalos forrásból (Steam, Epic Games, hivatalos webhelyek) töltsünk le szoftvereket. Használjunk naprakész vírusirtót (Windows Defender).
+
+---
+
+### 1.6. Közösségi Média és Online Zaklatás (`kozossegi_media.html`)
+
+**Főcím:** Biztonságos jelenlét a közösségi platformokon  
+**Fő témák:** Cyberbullying, álhírek, idegenekkel való kommunikáció.
+
+#### Hogyan védekezz a közösségi médiában?
+- **Ismeretlen jelölések:** Ne fogadj el jelölést olyan személytől, akit a való életben nem ismersz!
+- **Online zaklatás (Cyberbullying):** Ha valaki bánt, sérteget vagy fenyeget online, **ne válaszolj, mentsd el a képernyőképeket, és tiltsd le a felhasználót!**
+- **Álhírek és Manipuláció:** Ellenőrizd a hírek forrását több független felületen is!
+
+---
+
+### 1.7. Mit tegyek, ha baj történt? (Incidenskezelés) (`incidens.html`)
+
+**Főcím:** Gyakorlati lépések vészhelyzet esetén
+
+#### Lépésről lépésre – Incidenskezelési Protokoll:
+1. **Pánik elkerülése:** A gyors és megfontolt válasz csökkenti a károkat.
+2. **Költségek és hozzáférések leállítása:**
+   - Banki adatok kiszivárgása esetén **azonnal tiltsd le a bankkártyádat** a bank ügyfélszolgálatán!
+   - Fiókfeltörés esetén változtass jelszót minden érintett felületen, és jelentkeztess ki minden eszközt!
+3. **Bizonyítékok rögzítése:** Készíts képernyőképeket (Screenshot) az üzenetekről, e-mailekről, tranzakciókról!
+4. **Jelentés és Letiltás:** Jelentsd a problémát a platform üzemeltetőjének!
+5. **Segítség kérése (Hová fordulhatsz?):**
+   - **Szülők, Tanárok:** Először velük oszd meg a problémát!
+   - **Kibersegély / Internet Hotline:** [internethotline.hu](https://www.internethotline.hu) (Jogellenes és kiskorúakra veszélyes tartalmak bejelentése)
+   - **Kék Vonal Gyermekkrízis Alapítvány:** Ingyenesen hívható szám: `116-111` (Névtelen segítségnyújtás fiataloknak)
+   - **Rendőrség (112):** Súlyos pénzügyi csalás vagy fenyegetés esetén.
+
+---
+
+### 1.8. Forrásjegyzék (`forrasok.html`)
+
+- Nemzeti Kibervédelmi Intézet (NKI) – *nki.gov.hu*
+- Internet Hotline – *internethotline.hu*
+- Kék Vonal Gyermekkrízis Alapítvány – *kek-vonal.hu*
+- Have I Been Pwned – *haveibeenpwned.com*
+- European Union Agency for Cybersecurity (ENISA) – *enisa.europa.eu*
+
+---
+
+## 2. RÉSZ: ÚTMUTATÓ A BEADANDÓ MAPPÁHOZ ÉS A DOKUMENTUMOKHOZ
+
+A feladatgyűjtemény előírja a pontos mappastruktúrát:
+```text
+11evfolyam_BiztonsagosCsalad/
+├── index.html
+├── style.css
+├── kepek/
+├── BiztonsagiAudit.pdf
+├── Dokumentacio.pdf
+├── Bemutato.pptx
+└── Reflexio.pdf
