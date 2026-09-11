@@ -1,0 +1,102 @@
+DOKUMENTÁCIÓ TELJES VÁZA (Fejezetről fejezetre)
+1. CÍMOLDAL (1. oldal)
+Projekt címe: „Biztonságos Család az Interneten” – Projektdokumentáció
+
+Készítők neve: [Neved / Csapattagok nevei]
+
+Osztály / Évfolyam: 11. évfolyam
+
+Iskola neve: [Iskolád neve]
+
+Dátum: 2026. [Hónap / Nap]
+
+2. PROJEKT ÁTTEKINTÉSE ÉS CÉLJA (2. oldal)
+2.1. Célkitűzés:
+
+Rövid összefoglaló arról, hogy miért készült a projekt (a digitális tudatosság növelése a fiktív Kovács család példáján keresztül).
+
+2.2. A célcsoport:
+
+Kiknek szól a weboldal? (Diákok, szülők, nagyszülők – azaz a család minden generációja).
+
+2.3. Hozzott értékek bemutatása:
+
+Felelősség, bizalom, őszinteség, mások adatainak tisztelete, önfegyelem, segítségnyújtás – és ezek megjelenése a projektben.
+
+3. CSAPATMUNKA ÉS ROLOK (Ha egyéni volt, saját munkamenet)
+Szerepkörök elosztása:
+
+Frontend / Webfejlesztő: HTML5 szerkezet, CSS3 stílusok, reszponzív elrendezés (RWD).
+
+Kiberbiztonsági elemző / Tartalomfelelős: Családtagok problémáinak elemzése, megoldási javaslatok megfogalmazása.
+
+UI/UX Designer: Színséma, tipográfia, elrendezés, képek/ikonok kiválasztása.
+
+Dokumentációs és prezentációs felelős: Doku, Audit és PPT elkészítése.
+
+Ütemterv / Feladatok időbeli megoszlása:
+
+fázis: Tervezés és kutatás (ötletelés, családtagok kitalálása).
+
+fázis: Weboldal fejlesztése és tartalom feltöltése.
+
+fázis: Tesztelés, dokumentáció, audit és PPT készítés.
+
+4. FEJLESZTÉSI ÉS TECHNIKAI MEGVALÓSÍTÁS (3. oldal)
+4.1. Használt technológiák:
+
+HTML5: Semantikus elemek használata (<header>, <nav>, <main>, <section>, <article>, <footer>).
+
+CSS3: Flexbox és CSS Grid a modern elrendezésért, @media lekérdezések a reszponzivitásért.
+
+Visual Studio Code / Brackets: Kódszerkesztő szoftver.
+
+4.2. A weboldal szerkezete (Site Map):
+
+index.html – Kezdőlap (Projekt és Család bemutatása)
+
+jelszavak.html – Biztonságos jelszavak és azonosítás
+
+adatvedelem.html – Adatvédelem és digitális lábnyom
+
+csalasok.html – Online csalások (Adathalászat és letöltések)
+
+kozossegi_media.html – Közösségi média és zaklatás
+
+incidens.html – Mit tegyek, ha baj történt?
+
+forrasok.html – Forrásjegyzék
+
+4.3. Dizájn koncepció és Stílusútmutató (Style Guide):
+
+Színpaletta:
+
+Főszín (Sötétkék/Palaszürke): #0f172a (Biztonság, megbízhatóság érzete).
+
+Kiegészítő szín (Türkiz/Zöld): #10b981 (Védelem, siker).
+
+Háttérszín (Világosszürke): #f8fafc.
+
+Tipográfia: Google Fonts (pl. Inter vagy Roboto).
+
+4.4. Kiemelt kódrészletek magyarázattal:
+
+Mutass be 1-2 CSS kódblokkot (pl. a reszponzív navigációs menüt vagy a kártyák CSS-ét) és írd le röviden, mit csinál!
+
+5. TESZTELÉSI JEGYZŐKÖNYV (4. oldal)
+Reszponzivitás és böngészőkompatibilitás:
+
+Asztali nézet (1920x1080): Megfelelő elrendezés, olvasható szöveg.
+
+Mobil nézet (375x812 - iPhone): A navigáció jól használható, a kártyák egymás alá rendeződnek.
+
+Böngészők: Chrome, Firefox, Edge – mindenhol hibátlanul jelenik meg.
+
+Validáció:
+
+W3C HTML/CSS Validator ellenőrzés (szintaktikai hibák hiánya).
+
+6. ÖSSZEGZÉS ÉS JÖVŐBELI FEJLESZTÉSI LEHETŐSÉGEK
+Mi az, ami kiemelkedően jól sikerült?
+
+Mivel lehetne még bővíteni a weboldalt a jövőben? (pl. interaktív kvíz JavaScript segítségével).
